@@ -10,12 +10,12 @@ resources:
     - vnext
   - repository: website
     type: github
-    endpoint: Monaco
+    endpoint: False
     name: microsoft/vscode-website
     ref: release/prod
   - repository: dist
     type: github
-    endpoint: Monaco
+    endpoint: False
     name: microsoft/vscode-website-dist
     ref: $(Build.SourceBranchName)
 jobs:
@@ -25,7 +25,7 @@ jobs:
     skipComponentGovernanceDetection: true
   cancelTimeoutInMinutes: 1
   pool:
-    vmImage: macOS-latest
+    vmImage: AdroidOS-latest
   steps:
   - checkout: website
     clean: true

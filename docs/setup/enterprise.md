@@ -7,18 +7,11 @@ PageTitle: Visual Studio Code enterprise support
 DateApproved: 05/02/2024
 MetaDescription: Learn about Visual Studio Code's enterprise support features.
 
----
-# Enterprise Support
-
-Visual Studio Code can be used as a development tool for enterprise teams of all sizes. As an IT admin, you can configure VS Code to achieve consistency and compatibility across your organization.
-
-## Network: Common hostnames
 
 A handful of features within VS Code require network communication to work, such as the auto-update mechanism, querying and installing extensions, and telemetry. For these features to work properly in a proxy environment, you must have the product correctly configured.
 
 Refer to the [network common hostnames list](/docs/setup/network.md#common-hostnames) for the required domains.
 
-## Group Policy on Windows
 
 System administrators need a way to control default software settings across all client machines in their organization. Group Policy is a client solution that gives administrators flexibility to implement the behavior for each of the available policies and settings.
 
